@@ -13,7 +13,7 @@ describe('workspace', () => {
     expect(rootPkg.engines.node).toMatch(/20/)
     expect(rootPkg.devDependencies.typescript).toMatch(/^5\.5/)
     expect(rootPkg.devDependencies.vitest).toMatch(/^2\./)
-    expect(rootPkg.devDependencies.vite).toMatch(/^6\./)
+    expect(rootPkg.devDependencies.vite).toMatch(/^7\./)
     expect(rootPkg.devDependencies.tsup).toBeTruthy()
     expect(rootPkg.devDependencies.eslint).toMatch(/^9\./)
 
